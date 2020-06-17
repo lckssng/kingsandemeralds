@@ -10,70 +10,6 @@ max-height: 60%;
   margin-right: auto;
 }
 
-/*
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: gold;
-  text-align: center;
-}
-
-.active {
-  background-color: gold;
-}
-
-.hvr-sweep-to-top {
-  display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-  -webkit-transition-property: color;
-  transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  background: gold;
-  font-family: 'BenchNine', sans-serif;
-  padding: 8px 15px;
-  color: black;
-  text-decoration: none;  
-}
-.hvr-sweep-to-top:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: green;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-  -webkit-transform-origin: 50% 100%;
-  transform-origin: 50% 100%;
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
-  color: black;
-}
-.hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
-}
-*/
-
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -81,7 +17,13 @@ ul {
   overflow: hidden;
   background-color: #1E252F;
   text-align: center;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+
 }
+
 
 .active {
   background-color: #1E252F; /* Background kleur bij active */
@@ -92,7 +34,6 @@ ul {
   vertical-align: middle;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
@@ -103,9 +44,10 @@ ul {
   transition-duration: 0.3s;
   background: #1E252F; /* Background kleur voor hover */
   font-family: 'BenchNine', sans-serif;
-  padding: 8px 15px;
+  padding: 10px 20px;
   color: white; /* Kleur van de text */
   text-decoration: none;  
+  font-size: 18px;
 }
 .hvr-sweep-to-top:before {
   content: "";
@@ -133,4 +75,17 @@ ul {
 .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
+}
+
+.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #1E252F;
+   color: grey;
+   text-align: center;
+   font: "Open Sans", Helvetica, Arial, sans-serif;
+   font-size: 13px;
+   font-weight: 200;
 }
