@@ -1,10 +1,11 @@
 body {
   background-color: grey;
+  margin: 0px;
 }
 
 img {
-max-width: 60%;
-max-height: 60%;
+  max-width: 60%;
+  max-height: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -21,12 +22,10 @@ ul {
   padding-right: 10px;
   padding-bottom: 0px;
   padding-left: 10px;
-
 }
 
-
 .active {
-  background-color: #1E252F; /* Background kleur bij active */
+  background-color: orange; /* Background kleur bij active */
 }
 
 .hvr-sweep-to-top {
