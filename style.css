@@ -19,7 +19,7 @@ li a {
   color: white;
   text-align: center;
   padding: 14px 16px;
-  text-decoration: none;
+  font-family: 'BenchNine', sans-serif;
 }
 
 li a:hover:not(.active) {
